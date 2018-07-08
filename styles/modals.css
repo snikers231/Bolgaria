@@ -1,0 +1,81 @@
+
+#modal-form {
+	height: auto;
+	padding: 44px 0px 48px 0px;
+	background-color: #11b2f5;
+	border-radius: 3px;
+	color: #ffffff;
+}
+
+.modal-form__h2 {
+	font-size: 1.667rem;
+	text-align: center;
+	font-family: "MuseoSansCyrl-900";
+	letter-spacing: 4.2px;
+	text-transform: uppercase;
+}
+
+.modal-form__h3-block {
+	margin-top: 12px;
+}
+
+.modal-form__h3 {
+	font-family: "MuseoSansCyrl-100";
+	letter-spacing: 2.1px;
+	font-size: 1.2rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.modal-form__form {
+	padding: 50px 0px;
+	display: flex;
+	align-content: center;
+	flex-direction: column;
+	margin-bottom: 50px;
+}
+
+.modal-form__input {
+	width: 70%;
+	height: 53px;
+	margin: auto;
+	margin-top: 10px;
+	padding-left: 36px;
+	border-radius: 3px;
+	border: 1px solid #ffffff;
+	background-color: #30c2ff;
+	letter-spacing: 1.3px;
+	color: #a4e4ff;
+	font-family: "MuseoSansCyrl-300";
+	font-size: 0.8667rem;
+	letter-spacing: 1.3px;
+	text-transform: uppercase;
+}
+
+.modal-form__input:first-child {
+	margin-top: 0px;
+}
+
+.modal-form__input:focus {
+	box-shadow: 0 0 35px rgba(14, 14, 14, 0.3);
+	color: #ffffff;
+}
+
+.modal-form__button {
+	margin: auto;
+	margin-top: 20px;
+	width: 70%;
+	height: 56px;
+	border-radius: 4px;
+	border: 2px solid #ffffff;
+	background-color: #11b2f5;
+	color: #ffffff;
+	font-family: "MuseoSansCyrl-900";
+	font-size: 1rem;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
+
+.modal-form__button:active, .contacts__button:hover {
+	background-color: #30c2ff;
+}

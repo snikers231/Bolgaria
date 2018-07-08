@@ -1,0 +1,48 @@
+@media screen and (max-width: 580px) {
+	h1 {
+		font-size: 2.933rem;
+		line-height: 70px;
+	}
+
+}
+
+@media screen and (max-width: 530px) {
+	h1 {
+		font-size: 2rem;
+		line-height: 50px;
+		letter-spacing: 7.4px;
+	}
+
+}
+
+@media screen and (max-width: 992px) { 
+	.contacts__block {
+		margin-top: 0px;
+	}
+
+	.contacts {
+		padding-bottom: 0px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.contacts__data-block {
+		margin-bottom: 65px;
+	}
+
+	.contacts__data-img {
+		width: 100%;
+		float: none;
+		margin-bottom: 33px;
+		background-position: center bottom;
+	}
+
+	.contacts__data-headline {
+		text-align: center;
+		margin-bottom: 6px;
+	}
+
+	.contacts__data-text {
+		text-align: center;
+	}
+}

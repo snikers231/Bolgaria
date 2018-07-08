@@ -1,0 +1,420 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	transition: all 0.3s ease;
+}
+
+html {
+	font-size: 15px;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ul, li {
+	list-style-type: none;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+a, a:hover, a:active, a:focus,
+button, input, button:hover, button:active, button:focus,
+input:focus, input:active {
+	text-decoration: none;
+	outline: none;
+}
+
+.header {
+	width: 100%;
+	background-color: rgba(00,00,00,0.25);
+} 
+
+.logo-wrapper {
+	background-color: #23aae2;
+	padding: 5% 0px 5% 0px;
+	
+}
+
+.logo {
+	width: 100%;
+}
+
+.header__list {
+	height: auto;
+}
+
+.header__item {
+	float: left;
+	font-family: "MuseoSansCyrl-900";
+	font-size: 0.7333rem;
+	letter-spacing: 1.1px;
+	text-transform: uppercase;
+}
+
+.header__item a {
+	color: #ffffff;
+	padding: 10px 8px 10px 8px;
+}
+
+.header__item:hover a,.first__item:active a {
+	background-color: #ffffff;
+	color: #ffffff;
+	border-radius: 3px;
+	background-color: rgba(255, 255, 255, 0.14);
+} 
+
+.numbers {
+	float: right;
+	width: 200px;
+}
+
+.round-phone-icon {
+	float: left;
+	width: 26px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	color: #23aae2;
+	border: 1px dashed #23aae2;
+	border-radius: 50px;
+	font-size: 11px;
+}
+
+.phone-numbers {
+	float: right;
+	margin-left: 10px;
+	color: #ffffff;
+	border-bottom: 1px dashed #ffffff;
+	font-size: 1.067rem;
+	font-family: "MuseoSansCyrl-900";
+}
+
+.menu-button {
+	float: right;
+	color: #ffffff;
+	font-size: 30px;
+}
+
+.first {
+	background: url(../img/bg-first.png) no-repeat top center;
+	background-size: cover;
+}
+
+h1 {
+	font-size: 2.933rem;
+	letter-spacing: 10.2px;
+	margin-top: 75px;
+	font-family: "MuseoSansCyrl-900";
+	text-transform: uppercase;
+	text-align: center;
+	opacity: 0.91;
+	color: #ffffff;
+	line-height: 100px;
+	text-shadow: 0 0 46px rgba(0, 0, 0, 0.31);
+}
+
+.next-screen-button {
+	margin: auto;
+	margin-top: 56px;
+	margin-bottom: 113px;
+	width: 46px;
+	height: 46px;
+	display: block;
+	padding: 12px 16px 8px 17px;
+	border: 1px dashed #ffffff;
+	border-radius: 50px;
+}
+
+.next-screen-button a {
+	color: #ffffff;
+	font-size: 19px;
+}
+
+.next-screen-button:hover, .next-screen-button:active {
+	background-color: #133f56;
+}
+
+.about {
+	padding-bottom: 88px;
+	background-color: #f7f7f7;
+}
+
+.about__block {
+	margin-top: -88px;
+	padding-top: 45px;
+	padding-bottom: 70px;
+	width: 100%;
+	background-color: #ffffff;
+	box-shadow: 0 3px 1px rgba(159, 160, 160, 0.18);
+}
+
+.about__intro {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 65px;
+	font-family: "MuseoSansCyrl-100";
+	font-size: 1.133rem;
+	letter-spacing: 0.34px;
+	text-align: center;
+}
+
+.about__banner {
+	width: auto;
+	text-align: center;
+	font-family: "MuseoSansCyrl-900";
+	text-transform: uppercase;
+}
+
+.about__banner-1 .about__word:nth-child(1) {
+	font-size: 2.6rem;
+	color: #23aae2;
+	letter-spacing: 3.9px;
+	line-height: 28px;
+}
+
+.about__banner-1 .about__word:nth-child(2) {
+	font-size: 1rem;
+	color: #000000;
+	letter-spacing: 1.2px;
+	line-height: 28px;
+}
+
+.about__banner-2 .about__word:nth-child(1) {
+	font-family: "MuseoSansCyrl-100";
+	font-size: 1.267rem;
+	color: #bdbdbd;
+	letter-spacing: 6.9px;
+}
+
+.about__banner-3 .about__word:nth-child(1) {
+	font-size: 2rem;
+	color: #23aae2;
+	letter-spacing: 2.8px;
+	line-height: 30.15px;
+}
+
+.about__banner-3 .about__word:nth-child(2) {
+	font-size: 2rem;
+	color: #000000;
+	letter-spacing: 3.36px;
+	line-height: 34.46px;
+}
+
+.bold {
+	font-family: "MuseoSansCyrl-900";
+}
+
+.about__blue-line-block {
+	margin-top: 50px;
+	width: 100%;
+	height: 76px;
+	background-color: #23aae2;
+	text-align: center;
+}
+
+.about__ready-text {
+	font-family: "MuseoSansCyrl-900";
+	color: #ffffff;
+	font-size: 1.533rem;
+	line-height: 76px;
+	letter-spacing: 2.76px;
+	text-transform: uppercase;
+}
+
+.about__headline {
+	margin-top: 65px;
+	margin-bottom: 20px;
+	font-family: "MuseoSansCyrl-900";
+	text-align: center;
+	opacity: 0.99;
+	font-size:  1.933rem;
+	letter-spacing: 2.9px;
+	text-transform: uppercase;
+}
+
+.about__partner-card {
+	margin-top: 30px;
+	height: 95%;
+	padding: 37px 33px 40px 33px;
+	background-color: #f4f4f4;
+	box-shadow: 1px 2px 4px rgba(149, 147, 147, 0.33);
+}
+
+.about__partner-img {
+	display: block;
+	margin: auto;
+	margin-bottom: 26px;
+}
+
+.about__partner-name {
+	width: 100%;
+	font-family: "MuseoSansCyrl-900";
+	font-size: 1.4rem;
+	letter-spacing: 1.68px;
+	text-align: center;
+}
+
+.about__partner-name:after {
+	content: " ";
+	display: block;
+	margin: auto;
+	margin-top: 18px;
+	width: 37px;
+	height: 1px;
+	background-color: #c6c6c6;
+}
+
+.about__partner-text {
+	margin-top: 20px;
+	font-family: "MuseoSansCyrl-100";
+	font-size: 1.067rem;
+	opacity: 0.8;
+}
+
+h2 {
+	font-size: 2.8rem;
+	text-align: center;
+	font-family: "MuseoSansCyrl-900";
+	letter-spacing: 4.2px;
+	text-transform: uppercase;
+}
+
+.contact {
+	padding: 85px 0px 85px 0px;
+	background: url(../img/bg-contact-no-blue.png) no-repeat top center;
+	background-color: #11b2f5;
+	color: #ffffff;
+}
+
+.contact__h3 {
+	margin-top: 20px;
+}
+
+h3 {
+	font-family: "MuseoSansCyrl-100";
+	letter-spacing: 2.1px;
+	font-size: 1.4rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+.next-button {
+	width: 33px;
+	height: 33px;
+	position: absolute;
+	margin: auto;
+	text-align: center;
+	line-height: 33px;
+	border: 1px dashed #ffffff;
+	background-color: #213646;
+	border-radius: 50px;
+}
+
+.next-button a {
+	display: block;
+	color: #ffffff;
+	font-size: 15px;
+}
+
+.light:hover, .light:active {
+	background-color: #3b6074;
+}
+
+.light {
+	border-color: #ffffff;
+	color: #ffffff;
+}
+
+.contact__next-button {
+	margin: auto;
+	margin-top: 35px;
+	margin-bottom: 30px;
+	position: inherit;
+	background-color: #11b2f5;
+}
+
+.contact__next-button:hover {
+	background-color: #23aae2;
+}
+
+.contact__input {
+	margin-top: 10px;
+	padding-left: 36px;
+	width: 100%;
+	height: 67px;
+	border-radius: 3px;
+	border: 1px solid #ffffff;
+	background-color: #30c2ff;
+	letter-spacing: 1.3px;
+	color: #a4e4ff;
+	font-family: "MuseoSansCyrl-300";
+	font-size: 0.8667rem;
+	letter-spacing: 1.3px;
+	text-transform: uppercase;
+}
+
+.contact__input:first-child {
+	margin-top: 0px;
+}
+
+.contact__input:focus {
+	box-shadow: 0 0 35px rgba(14, 14, 14, 0.3);
+	color: #ffffff;
+}
+
+.contact__button {
+	margin-top: 20px;
+	width: 100%;
+	height: 70px;
+	border-radius: 4px;
+	border: 2px solid #ffffff;
+	background-color: #11b2f5;
+	color: #ffffff;
+	font-family: "MuseoSansCyrl-900";
+	font-size: 1rem;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
+
+.contact__button:active, .contact__button:hover {
+	background-color: #30c2ff;
+}
+
+.footer {
+	box-shadow: 7px 11px 131px rgba(0, 0, 0, 0.26);
+	background-color: #23aae2;
+	text-align: center;
+}
+
+.footer__rights {
+	opacity: 0.76;
+	color: #faf7f7;
+	font-family: "MuseoSansCyrl-100";
+	font-size: 0.9333rem;
+}
+
+.footer__confidential a{
+	opacity: 0.76;
+	color: #faf7f7;
+	font-family: "MuseoSansCyrl-100";
+	font-size: 0.9333rem;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
+
+.footer__phone-icon {
+	color: #ffffff;
+	border-color: #ffffff;
+}
+
+
+
+
+
