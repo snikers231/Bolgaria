@@ -32,7 +32,7 @@ input:focus, input:active {
 	outline: none;
 }
 
-.header {
+#header {
 	width: 100%;
 	background-color: rgba(00,00,00,0.25);
 } 
@@ -103,13 +103,10 @@ input:focus, input:active {
 	font-size: 30px;
 }
 
-.first {
+#first {
 	background: url(../img/bg-first.png) no-repeat top center;
 	background-size: cover;
-}
-
-.first__text {
-	
+	padding-bottom: 200px;
 }
 
 h1 {
@@ -194,7 +191,7 @@ h2 {
 	text-transform: uppercase;
 }
 
-.contact {
+#contact {
 	padding: 85px 0px 85px 0px;
 	background: url(../img/bg-contact-no-blue.png) no-repeat top center;
 	background-color: #11b2f5;
@@ -294,7 +291,7 @@ h3 {
 	background-color: #30c2ff;
 }
 
-.footer {
+#footer {
 	box-shadow: 7px 11px 131px rgba(0, 0, 0, 0.26);
 	background-color: #23aae2;
 	text-align: center;

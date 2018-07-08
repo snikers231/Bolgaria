@@ -106,6 +106,7 @@ input:focus, input:active {
 .first {
 	background: url(../img/bg-first.png) no-repeat top center;
 	background-size: cover;
+	padding-bottom: 200px;
 }
 
 h1 {

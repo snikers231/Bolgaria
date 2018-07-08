@@ -10,10 +10,13 @@
 	<link rel="stylesheet" href="styles/media-move.css">
 	<link rel="stylesheet" href="styles/font-face.css">
 	<link rel="stylesheet" href="styles/bootstrap-grid.css">
+
+	<link rel="stylesheet" href="styles/modals.css">
+	<link rel="stylesheet" href="styles/iziModal.min.css">
 </head>
 <body>
-	<section class="first">
-		<header class="header">
+	<section id="first">
+		<header id="header">
 			<div class="container">
 				<div class="row">
 					<div class="col-5 col-sm-4 col-md-3 col-xl-2">
@@ -40,7 +43,7 @@
 						</nav>
 					</div>
 					<div class="d-none d-md-block col align-self-center">
-						<div class="numbers">
+						<div class="numbers form-modal">
 							<div class="round-phone-icon">
 								<i class="fas fa-phone fa-flip-horizontal"></i>
 							</div>
@@ -67,18 +70,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="row align-items-end">
-				<div class="col">
-					<div class="next-screen-button">
-						<a href="#">
-							<i class="fas fa-angle-down"></i>
-						</a>
-					</div>
-				</div>
-			</div>
 		</div>
 	</section>
-	<section class="relocation">
+	<section id="relocation">
 		<div class="row justify-content-center">
 			<div class="col-12 col-lg-11 col-xl-10">
 				<div class="relocation__block">
@@ -120,7 +114,7 @@
 		</div>
 	</section>
 
-	<section class="contact">
+	<section id="contact">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -141,7 +135,7 @@
 				</div>
 				<div class="col-12">
 					<div class="next-button contact__next-button light">
-						<a href="#"><i class="fas fa-caret-down"></i></a>
+						<span><i class="fas fa-caret-down"></i></span> 
 					</div>					
 				</div>
 			</div>
@@ -161,7 +155,7 @@
 		</div>
 	</section>
 
-	<footer class="footer">
+	<footer id="footer">
 		<div class="container">
 				<div class="row justify-content-between">
 					<div class="col-5 col-sm-4 col-md-3 col-xl-2">
@@ -193,6 +187,36 @@
 				</div>
 			</div>
 	</footer>
+
+	<!-- modals -->
+	<div id="modal-form">
+        <div class="modal-form__h2-block">
+            <h2 class="modal-form__h2">
+                Есть вопросы<br>
+                по переезду в болгарию?
+            </h2>
+        </div>			
+        <div class="modal-form__h3-block">
+            <h3 class="modal-form__h3">
+                Мы проконсультируем<br>
+                Вас бесплатно!
+            </h3>
+        </div>
+        <form action="#" class="modal-form__form">
+            <input type="text" name="name" class="modal-form__input" placeholder="Имя" required id="name">
+
+            <input type="text" name="email" class="modal-form__input" placeholder="E-mail" required id="email">
+
+            <input type="text" name="phone" class="modal-form__input" placeholder="Телефон" required id="phone">
+
+            <button class="modal-form__button" type="submit">Заказать консультацию</button>
+        </form> 
+	</div>
+
 	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/iziModal.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
 </body>
 </html>

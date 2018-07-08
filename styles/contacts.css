@@ -106,6 +106,7 @@ input:focus, input:active {
 .first {
 	background: url(../img/bg-first.png) no-repeat top center;
 	background-size: cover;
+	padding-bottom: 200px;
 }
 
 h1 {
@@ -133,7 +134,7 @@ h1 {
 	border-radius: 50px;
 }
 
-.next-screen-button a {
+.next-screen-button a{
 	color: #ffffff;
 	font-size: 19px;
 }
